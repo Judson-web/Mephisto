@@ -12,7 +12,7 @@ class script(object):
 ✯ ⲂⴑⲒ𝓛Ⲇ ϨⲦⲀⲦⴑϨ: v1.0.1 [ ⲂⲈⲦⲀ ]"""
     SOURCE_TXT = """<b>ⲚⲞⲦⲈ:</b>
 - <a href='https://t.me/Mephistov3_bot'>Ⲙⲉⲣⲏⲓ𝛓ⲧⲟ</a> ⲓ𝛓 ⲁ ⲟⲣⲉⲛ 𝛓ⲟ𐌵ꞅⲥⲉ ⲣꞅⲟ𝓳ⲉⲥⲧ.  
-- Ϩⲟ𐌵ꞅⲥⲉ - <a href='https://github.com/Judson-web/EvaMaria'>Ⲥ𝓵ⲓⲥⲕ Ⲙⲉ</a>
+- Ϩⲟ𐌵ꞅⲥⲉ - <a href='https://github.com/Judson-web/Mephisto'>Ⲥ𝓵ⲓⲥⲕ Ⲙⲉ</a>
 
 <b>ⲆⲈ𝓥Ϩ:</b>
 - <a href=https://t.me/STMbOTsUPPORTgROUP>Ⲧⲉⲁⲙ Ⲙⲉⲣⲏⲓ𝛓ⲧⲟ</a>"""
