@@ -19,13 +19,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/EvaMariaBot?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
+            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/STMbOTsUPPORTgROUP')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -46,13 +46,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "** 𝙷𝙴𝚈 𝙱𝚁𝚄𝙷 🙋‍♀️ 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴𝙽'𝚃 𝚈𝙴𝚃 𝙹𝙾𝙸𝙽𝙴𝙳 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙿𝙻𝙴𝙰𝚂𝙴 𝙹𝙾𝙸𝙽 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝚄𝚜𝙴 𝙼𝙴\n𝙰𝙵𝚃𝙴𝚁 𝙹𝙾𝙸𝙽𝚒𝙽𝙶 𝙲𝙻𝙸𝙲𝙺 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 𝚃𝙾 𝙶𝙴𝚃 𝚈𝚘𝚄𝚁 𝙼𝙾𝚅𝙸𝙴 😇!! **", url=invite_link.invite_link
                 )
             ]
         ]
 
-        if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+        if message.command[1] != "🔰 JOIN OUR CHANNEL 🔰":
+            btn.append([InlineKeyboardButton(" 🔄 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
