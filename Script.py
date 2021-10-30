@@ -7,8 +7,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ MY Cᴏᴍᴍᴀɴᴅs."""
 ✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/VAMPIRE_KING_NO_1>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>
 ✯ Lɪʙʀᴀʀʏ: Pʏʀᴏɢʀᴀᴍ
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3 
-✯ Dᴀᴛᴀ Bᴀsᴇ: Hᴇʀᴏᴋᴜ
-✯ ⲂⲞⲦ ϨⲈꞄ𝓥ⲈꞄ: ⲎⲈꞄⲞⲔⴑ
+✯ Dᴀᴛᴀ Bᴀsᴇ: ᴍᴏɴɢᴏ ᴅʙ
+✯ ⲂⲞⲦ SᴇʀᴠᴇʀꞄ: Hᴇʀᴏᴋᴜ
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v1.0.1 [ Bᴇᴛᴀ ]"""
     SOURCE_TXT = """<b>ᴺᴼᵀᴱ:</b>
 - <a href='https://t.me/Mephistov3_bot'>Mᴇᴘʜɪsᴛᴏ</a> Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.  
