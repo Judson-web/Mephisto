@@ -1,46 +1,46 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/EvaMariaBot'>𝙴𝚅𝙰 𝙼𝙰𝚁𝙸𝙰</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    START_TXT = """ⲎⲈ𝓛Ⲟ {},
+ⲘⲨ ⲚⲀⲘⲈ ⲒϨ <a href='https://t.me/Mephistov3_bot'>ⲘⲈⲢⲎⲒϨⲦⲞ</a>, Ⲓ ⲤⲀⲚ ⲢꞄⲞ𝓥ⲒⲆⲈ ⲘⲞ𝓥ⲒⲈϨ, 𝓙ⴑϨⲦ ⲀⲆⲆ ⲘⲈ ⲦⲞ ⲨⲞⴑꞄ 𝓖ꞄⲞⴑⲢ ⲀⲚⲆ ⲈⲚ𝓙ⲞⲨ😈"""
+    HELP_TXT = """ⲎⲈⲨ {}
+ⲎⲈꞄⲈ ⲒϨ ⲦⲎⲈ ⲎⲈ𝓛Ⲣ 𝓕ⲞꞄ ⲘⲨ ⲤⲞⲘⲘⲀⲚⲆϨ."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: 𝚃𝚎𝚊𝚖 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+✯ ⲤꞄⲈⲀⲦⲞꞄ: <a href=https://t.me/VAMPIRE_KING_NO_1>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>
+✯ 𝓛ⲒⲂꞄⲀꞄⲨ: ⲢⲨꞄⲞ𝓖ꞄⲀⲘ
+✯ 𝓛ⲀⲚ𝓖ⴑⲀ𝓖Ⲉ: ⲢⲨⲦⲎⲞⲚ 3
+✯ ⲆⲀⲦⲀ ⲂⲀϨⲈ: ⲘⲞⲚ𝓖Ⲟ ⲆⲂ
+✯ ⲂⲞⲦ ϨⲈꞄ𝓥ⲈꞄ: ⲎⲈꞄⲞⲔⴑ
+✯ ⲂⴑⲒ𝓛Ⲇ ϨⲦⲀⲦⴑϨ: v1.0.1 [ ⲂⲈⲦⲀ ]"""
+    SOURCE_TXT = """<b>ⲚⲞⲦⲈ:</b>
+- <a href='https://t.me/Mephistov3_bot'>Ⲙⲉⲣⲏⲓ𝛓ⲧⲟ</a> ⲓ𝛓 ⲁ ⲟⲣⲉⲛ 𝛓ⲟ𐌵ꞅⲥⲉ ⲣꞅⲟ𝓳ⲉⲥⲧ.  
+- Ϩⲟ𐌵ꞅⲥⲉ - <a href='https://github.com/Judson-web/EvaMaria'>Ⲥ𝓵ⲓⲥⲕ Ⲙⲉ</a>
 
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+<b>ⲆⲈ𝓥Ϩ:</b>
+- <a href=https://t.me/STMbOTsUPPORTgROUP>Ⲧⲉⲁⲙ Ⲙⲉⲣⲏⲓ𝛓ⲧⲟ</a>"""
+    MANUELFILTER_TXT = """Ⲏⲉ𝓵ⲣ: <b>𝓕ⲓ𝓵ⲧⲉꞅ𝛓</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
+- 𝓕ⲓ𝓵ⲧⲉꞅ ⲓ𝛓 ⲧⲏⲉ 𝓯ⲉⲁⲧ𐌵ꞅⲉ ⲱⲉꞅⲉ 𐌵𝛓ⲉꞅ𝛓 ⲥⲁⲛ 𝛓ⲉⲧ ⲁ𐌵ⲧⲟⲙⲁⲧⲉⲇ ꞅⲉⲣ𝓵ⲓⲉ𝛓 𝓯ⲟꞅ ⲁ ⲣⲁꞅⲧⲓⲥ𐌵𝓵ⲁꞅ ⲕⲉⲩⲱⲟꞅⲇ ⲁⲛⲇ ⲙⲉⲣⲏⲓ𝛓ⲧⲟ ⲱⲓ𝓵𝓵 ꞅⲉ𝛓ⲣⲟⲛⲇ ⲱⲏⲉⲛⲉ𝓿ⲉꞅ ⲁ ⲕⲉⲩⲱⲟꞅⲇ ⲓ𝛓 𝓯ⲟ𐌵ⲛⲇ ⲧⲏⲉ ⲙⲉ𝛓𝛓ⲁ𝓰ⲉ
 
-<b>NOTE:</b>
-1. eva maria should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
+<b>ⲚⲞⲦⲈ:</b>
+1. ⲉ𝓿ⲁ ⲙⲁꞅⲓⲁ 𝛓ⲏⲟ𐌵𝓵ⲇ ⲏⲁ𝓿ⲉ ⲁⲇⲙⲓⲛ ⲣꞅⲓ𝓿ⲓ𝓵𝓵ⲁ𝓰ⲉ.
+2. ⲟⲛ𝓵ⲩ ⲁⲇⲙⲓⲛ𝛓 ⲥⲁⲛ ⲁⲇⲇ 𝓯ⲓ𝓵ⲧⲉꞅ𝛓 ⲓⲛ ⲁ ⲥⲏⲁⲧ.
+3. ⲁ𝓵ⲉꞅⲧ ⲃ𐌵ⲧⲧⲟⲛ𝛓 ⲏⲁ𝓿ⲉ ⲁ 𝓵ⲓⲙⲓⲧ ⲟ𝓯 64 ⲥⲏⲁꞅⲁⲥⲧⲉꞅ𝛓.
 
-<b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+<b>Ⲥⲟⲙⲙⲁⲛⲇ𝛓 ⲁⲛⲇ ⴑ𝛓ⲁ𝓰ⲉ:</b>
+• /filter - <code>ⲁⲇⲇ ⲁ 𝓯ⲓ𝓵ⲧⲉꞅ ⲓⲛ ⲥⲏⲁⲧ</code>
+• /filters - <code>𝓵ⲓ𝛓ⲧ ⲁ𝓵𝓵 ⲧⲏⲉ 𝓯ⲓ𝓵ⲧⲉꞅ𝛓 ⲟ𝓯 ⲁ ⲥⲏⲁⲧ</code>
+• /del - <code>ⲇⲉ𝓵ⲉⲧⲉ ⲁ 𝛓ⲣⲉⲥⲓ𝓯ⲓⲥ 𝓯ⲓ𝓵ⲧⲉꞅ ⲓⲛ ⲥⲏⲁⲧ</code>
+• /delall - <code>ⲇⲉ𝓵ⲉⲧⲉ ⲧⲏⲉ ⲱⲏⲟ𝓵ⲉ 𝓯ⲓ𝓵ⲧⲉꞅ𝛓 ⲓⲛ ⲁ ⲥⲏⲁⲧ (ⲥⲏⲁⲧ ⲟⲱⲛⲉꞅ ⲟⲛ𝓵ⲩ)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- Mephisto Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Mephisto supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https//t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https//t.me/Mephistov3_bot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -67,7 +67,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of tessa
+these are the extra features of Mephisto
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
