@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """Hᴇʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href='https://t.me/Mephistov3_bot'>Mᴇᴘʜɪsᴛᴏ</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ😈"""
+Mʏ Nᴀᴍᴇ Is <a href='https://t.me/Mephistov3_bot'>Mᴇᴘʜɪsᴛᴏ</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😈"""
     HELP_TXT = """Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ MY Cᴏᴍᴍᴀɴᴅs."""
     ABOUT_TXT = """✯ Mʏ Nᴀᴍᴇ: Mᴇᴘʜɪsᴛᴏ
