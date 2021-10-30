@@ -27,13 +27,13 @@ async def index_files(bot, query):
         return await query.answer('Bruda Wait until previous process complete, Then I Can Do This Again 👑.', show_alert=True)
     msg = query.message
 
-    await query.answer('Pʀᴏᴄᴇssɪɴɢ...⏳', show_alert=True)
+    await query.answer('Processing...⏳', show_alert=True)
     if int(from_user) not in ADMINS:
-        await bot.send_message(int(from_user), f'Yᴏᴜʀ Sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ {chat} ʜᴀs ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ ʙʏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs ᴀɴᴅ ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ sᴏᴏɴ', reply_to_message_id=int(lst_msg_id))
+        await bot.send_message(int(from_user), f'Your Submission for indexing {chat} has been accepted by our moderators and will be added soon.', reply_to_message_id=int(lst_msg_id))
     await msg.edit(
-        "Sᴛᴀʀᴛɪɴɢ Iɴᴅᴇxɪɴɢ",
+        "Starting Indexing",
         reply_markup = InlineKeyboardMarkup(
-            [[InlineKeyboardButton('Cᴀɴᴄᴇʟ', callback_data='index_cancel')]]
+            [[InlineKeyboardButton('Cancel', callback_data='index_cancel')]]
         )
     )
     try:
