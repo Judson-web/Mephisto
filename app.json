@@ -1,6 +1,7 @@
 {
-    "name": "EvaMariaBot",
+    "name": "𝙼𝚎𝚙𝚑𝚒𝚜𝚝𝚘",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "logo": "https://telegra.ph/file/afa9ccc10ea1722a51b8c.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -14,7 +15,7 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/EvamariaTG/EvaMaria",
+    "website": "https://github.com/Judson-web/Mephisto",
     "repository": "https://github.com/EvamariaTG/EvaMaria",
     "env": {
         "BOT_TOKEN": {
@@ -22,11 +23,11 @@
             "value": ""
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "Get this value from my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "Get this value from my.telegram.org",
             "value": ""
         },
         "CHANNELS": {
@@ -70,11 +71,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
             "value": ""
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
             "value": ""
         },
         "COLLECTION_NAME": {
