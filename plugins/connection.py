@@ -13,9 +13,9 @@ async def addconnection(client,message):
             cmd, group_id = message.text.split(" ", 1)
         except:
             await message.reply_text(
-                "<b>Enter in correct format!</b>\n\n"
-                "<code>/connect groupid</code>\n\n"
-                "<i>Get your Group id by adding this bot to your group and use  <code>/id</code></i>",
+                "<b>Eɴᴛᴇʀ ɪɴ ᴄᴏʀʀᴇᴄᴛ ғᴏʀᴍᴀᴛ!</b>\n\n"
+                "<code>/connect ɢʀᴏᴜᴘɪᴅ</code>\n\n"
+                "<i>Gᴇᴛ ʏᴏᴜʀ Gʀᴏᴜᴘ ɪᴅ ʙʏ ᴀᴅᴅɪɴɢ ᴛʜɪs ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴜsᴇ <code>/id</code></i>",
                 quote=True
             )
             return
@@ -49,26 +49,26 @@ async def addconnection(client,message):
             addcon = await add_connection(str(group_id), str(userid))
             if addcon:
                 await message.reply_text(
-                    f"Sucessfully connected to **{title}**\nNow manage your group from my pm !",
+                    f"Sᴜᴄᴇssғᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ **{title}**\nNᴏᴡ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғʀᴏᴍ ᴍʏ ᴘᴍ !",
                     quote=True,
                     parse_mode="md"
                 )
                 if chat_type in ["group", "supergroup"]:
                     await client.send_message(
                         userid,
-                        f"Connected to **{title}** !",
+                        f"ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ **{title}** !",
                         parse_mode="md"
                     )
             else:
                 await message.reply_text(
-                    "You're already connected to this chat!",
+                    "     Yᴏᴜ'ʀᴇ ᴀʟʀᴇᴀᴅʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ᴛʜɪs ᴄʜᴀᴛ!",
                     quote=True
                 )
         else:
-            await message.reply_text("Add me as an admin in group", quote=True)
+            await message.reply_text("Aᴅᴅ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ", quote=True)
     except Exception as e:
         print(e)
-        await message.reply_text('Some error occured! Try again later.', quote=True)
+        await message.reply_text('Sᴏᴍᴇ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀᴇᴅ! Tʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ.', quote=True)
         return
 
 
@@ -78,7 +78,7 @@ async def deleteconnection(client,message):
     chat_type = message.chat.type
 
     if chat_type == "private":
-        await message.reply_text("Run /connections to view or disconnect from groups!", quote=True)
+        await message.reply_text("Run /connections ᴛᴏ ᴠɪᴇᴡ ᴏʀ ᴅɪsᴄᴏɴɴᴇᴄᴛ ғʀᴏᴍ ɢʀᴏᴜᴘs!", quote=True)
 
     elif chat_type in ["group", "supergroup"]:
         group_id = message.chat.id
