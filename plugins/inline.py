@@ -57,9 +57,9 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} Results - {total}"
+        switch_pm_text = f"Bruda Here Is All Files 😎 - {total}"
         if string:
-            switch_pm_text += f" for {string}"
+            switch_pm_text += f" For {string}"
         try:
             await query.answer(results=results,
                            is_personal = True,
@@ -74,9 +74,9 @@ async def answer(bot, query):
                            switch_pm_text=str(e)[:63],
                            switch_pm_parameter="error")
     else:
-        switch_pm_text = f'{emoji.CROSS_MARK} No results'
+        switch_pm_text = f'He He Bruda No Results 🤓'
         if string:
-            switch_pm_text += f' for "{string}"'
+            switch_pm_text += f' For "{string}"'
 
         await query.answer(results=[],
                            is_personal = True,
@@ -88,7 +88,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
+            InlineKeyboardButton('♻️ Sᴇᴀʀᴄʜ Aɢᴀɪɴ ♻️', switch_inline_query_current_chat=query)
         ]
         ]
     return InlineKeyboardMarkup(buttons)
