@@ -1,22 +1,22 @@
 class script(object):
-    START_TXT = """ⲎⲈ𝓛Ⲟ {},
-ⲘⲨ ⲚⲀⲘⲈ ⲒϨ <a href='https://t.me/Mephistov3_bot'>ⲘⲈⲢⲎⲒϨⲦⲞ</a>, Ⲓ ⲤⲀⲚ ⲢꞄⲞ𝓥ⲒⲆⲈ ⲘⲞ𝓥ⲒⲈϨ, 𝓙ⴑϨⲦ ⲀⲆⲆ ⲘⲈ ⲦⲞ ⲨⲞⴑꞄ 𝓖ꞄⲞⴑⲢ ⲀⲚⲆ ⲈⲚ𝓙ⲞⲨ😈"""
-    HELP_TXT = """ⲎⲈⲨ {}
-ⲎⲈꞄⲈ ⲒϨ ⲦⲎⲈ ⲎⲈ𝓛Ⲣ 𝓕ⲞꞄ ⲘⲨ ⲤⲞⲘⲘⲀⲚⲆϨ."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
-✯ ⲤꞄⲈⲀⲦⲞꞄ: <a href=https://t.me/VAMPIRE_KING_NO_1>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>
-✯ 𝓛ⲒⲂꞄⲀꞄⲨ: ⲢⲨꞄⲞ𝓖ꞄⲀⲘ
-✯ 𝓛ⲀⲚ𝓖ⴑⲀ𝓖Ⲉ: ⲢⲨⲦⲎⲞⲚ 3
-✯ ⲆⲀⲦⲀ ⲂⲀϨⲈ: ⲘⲞⲚ𝓖Ⲟ ⲆⲂ
+    START_TXT = """Hᴇʟᴏ {},
+Mʏ Nᴀᴍᴇ Is <a href='https://t.me/Mephistov3_bot'>Mᴇᴘʜɪsᴛᴏ</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ😈"""
+    HELP_TXT = """Hᴇʏ {}
+Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ MY Cᴏᴍᴍᴀɴᴅs."""
+    ABOUT_TXT = """✯ Mʏ Nᴀᴍᴇ: Mᴇᴘʜɪsᴛᴏ
+✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/VAMPIRE_KING_NO_1>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>
+✯ Lɪʙʀᴀʀʏ: Pʏʀᴏɢʀᴀᴍ
+✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3 
+✯ Dᴀᴛᴀ Bᴀsᴇ: Hᴇʀᴏᴋᴜ
 ✯ ⲂⲞⲦ ϨⲈꞄ𝓥ⲈꞄ: ⲎⲈꞄⲞⲔⴑ
-✯ ⲂⴑⲒ𝓛Ⲇ ϨⲦⲀⲦⴑϨ: v1.0.1 [ ⲂⲈⲦⲀ ]"""
-    SOURCE_TXT = """<b>ⲚⲞⲦⲈ:</b>
-- <a href='https://t.me/Mephistov3_bot'>Ⲙⲉⲣⲏⲓ𝛓ⲧⲟ</a> ⲓ𝛓 ⲁ ⲟⲣⲉⲛ 𝛓ⲟ𐌵ꞅⲥⲉ ⲣꞅⲟ𝓳ⲉⲥⲧ.  
-- Ϩⲟ𐌵ꞅⲥⲉ - <a href='https://github.com/Judson-web/Mephisto'>Ⲥ𝓵ⲓⲥⲕ Ⲙⲉ</a>
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v1.0.1 [ Bᴇᴛᴀ ]"""
+    SOURCE_TXT = """<b>ᴺᴼᵀᴱ:</b>
+- <a href='https://t.me/Mephistov3_bot'>Mᴇᴘʜɪsᴛᴏ</a> Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.  
+- Sᴏᴜʀᴄᴇ - <a href='https://github.com/Judson-web/Mephisto'>Cʟɪᴄᴋ Mᴇ</a>
 
-<b>ⲆⲈ𝓥Ϩ:</b>
-- <a href=https://t.me/STMbOTsUPPORTgROUP>Ⲧⲉⲁⲙ Ⲙⲉⲣⲏⲓ𝛓ⲧⲟ</a>"""
-    MANUELFILTER_TXT = """Ⲏⲉ𝓵ⲣ: <b>𝓕ⲓ𝓵ⲧⲉꞅ𝛓</b>
+<b>Dᴇᴠs:</b>
+- <a href=https://t.me/STMbOTsUPPORTgROUP>Tᴇᴀᴍ Mᴇᴘʜɪsᴛᴏ</a>"""
+    MANUELFILTER_TXT = """Hᴇʟᴘ: <b>Fɪʟᴛᴇʀs</b>
 
 - 𝓕ⲓ𝓵ⲧⲉꞅ ⲓ𝛓 ⲧⲏⲉ 𝓯ⲉⲁⲧ𐌵ꞅⲉ ⲱⲉꞅⲉ 𐌵𝛓ⲉꞅ𝛓 ⲥⲁⲛ 𝛓ⲉⲧ ⲁ𐌵ⲧⲟⲙⲁⲧⲉⲇ ꞅⲉⲣ𝓵ⲓⲉ𝛓 𝓯ⲟꞅ ⲁ ⲣⲁꞅⲧⲓⲥ𐌵𝓵ⲁꞅ ⲕⲉⲩⲱⲟꞅⲇ ⲁⲛⲇ ⲙⲉⲣⲏⲓ𝛓ⲧⲟ ⲱⲓ𝓵𝓵 ꞅⲉ𝛓ⲣⲟⲛⲇ ⲱⲏⲉⲛⲉ𝓿ⲉꞅ ⲁ ⲕⲉⲩⲱⲟꞅⲇ ⲓ𝛓 𝓯ⲟ𐌵ⲛⲇ ⲧⲏⲉ ⲙⲉ𝛓𝛓ⲁ𝓰ⲉ
 
