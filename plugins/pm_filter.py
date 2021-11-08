@@ -547,9 +547,9 @@ async def auto_filter(client, message):
             )
         imdb=await get_poster(search)
         if imdb and imdb.get('poster'):
-            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>Qᴜᴇʀʏ: {search}</b> \n‌‌‌‌🏷 Tɪᴛʟᴇ: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Gᴇɴʀᴇs: {imdb.get('genres')}\n📆 Yᴇᴀʀ: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rᴀᴛɪɴɢ: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>🏷 Tɪᴛʟᴇ: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Gᴇɴʀᴇs: {imdb.get('genres')}\n📆 Yᴇᴀʀ: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rᴀᴛɪɴɢ: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
         elif imdb:
-            await message.reply_text(f"<b>Qᴜᴇʀʏ: {search}</b> \n‌‌‌‌🏷 Tɪᴛʟᴇ: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Gᴇɴʀᴇs: {imdb.get('genres')}\n📆 Yᴇᴀʀ: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rᴀᴛɪɴɢ: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>🏷 Tɪᴛʟᴇ: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Gᴇɴʀᴇs: {imdb.get('genres')}\n📆 Yᴇᴀʀ: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rᴀᴛɪɴɢ: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
         else:
             await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
         
