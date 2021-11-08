@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="70c96ac7d977ac89814674a38adbf5ec.jpg" alt="𝙼𝚎𝚙𝚑𝚒𝚜𝚝𝚘 Logo">
+  <img src="Mephisto.jpg" alt="𝙼𝚎𝚙𝚑𝚒𝚜𝚝𝚘 Logo">
 </p>
 <h1 align="center">
   <b>𝙼𝚎𝚙𝚑𝚒𝚜𝚝𝚘</b>
