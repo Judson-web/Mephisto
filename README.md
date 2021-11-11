@@ -16,7 +16,7 @@
 ## Features
 
 - [x] Auto Filter
-- [x] Manuel Filter
+- [x] Manual Filter
 - [x] IMDB
 - [x] Admin Commands
 - [x] Broadcast
@@ -26,6 +26,7 @@
 - [x] Random pics
 - [x] ids and User info 
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- [x] Spelling Check Feature
 
 
 ## Variables
